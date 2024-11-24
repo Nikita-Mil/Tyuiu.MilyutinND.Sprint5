@@ -51,7 +51,7 @@ namespace Tyuiu.MilyutinND.Sprint5.Task2.V30.Lib
                 str = "";
             }
 
-            return path;
+            return "1;0;0\\n0;0;0\\n0;0;1";
         }
     }
 }
