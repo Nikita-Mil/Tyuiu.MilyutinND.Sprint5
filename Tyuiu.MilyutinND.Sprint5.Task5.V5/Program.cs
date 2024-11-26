@@ -10,9 +10,9 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* Исходные данные:                                                            *");
 Console.WriteLine("*******************************************************************************");
 
-string path = @"C:\DataService5\InPutDataFileTask5V5.txt";
+string path = @"C:\Users\Asus\source\repos\Tyuiu.MilyutinND.Sprint5\Tyuiu.MilyutinND.Sprint5.Task5.V5\bin\Debug\net8.0\DataSprint5\InPutDataFileTask5V5.txt";
+
 Console.WriteLine("Данные файла находятся в " + path);
-Console.WriteLine("*******************************************************************************");
 Console.WriteLine("* Результат:                                                                  *");
 Console.WriteLine("*******************************************************************************");
 double res = ds.LoadFromDataFile(path);

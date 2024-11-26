@@ -24,6 +24,11 @@ namespace Tyuiu.MilyutinND.Sprint5.Task5.V5.Lib
                 }
             }
             return Math.Round(max - min, 3);
+            //DataService ds = new();
+            //string str = File.ReadAllText(path);
+            //str = str.Replace('.', ',');
+            //double x = Convert.ToDouble(str);
+            //double gg = ds.Calculate(x);
         }
     }
 }
