@@ -10,13 +10,13 @@ namespace Tyuiu.MilyutinND.Sprint5.Task4.V20.Lib
             string str = File.ReadAllText(path);
             str = str.Replace('.', ',');
             double x = Convert.ToDouble(str);
-            double F = ds.Calculate(x);
-            return F;
+            double gg = ds.Calculate(x);
+            return gg;
         }
         public double Calculate(double x)
         {
-            double F = Math.Pow((x * x) / (Math.Sin(x)), 3);
-            return Math.Round(F, 3);
+            double gg = Math.Pow((x * x) / (Math.Sin(x)), 3);
+            return Math.Round(gg, 3);
 
             //double y = Math.Pow((x * x) / (Math.Sin(x)), 3);
         }
