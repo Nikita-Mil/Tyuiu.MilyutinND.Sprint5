@@ -10,7 +10,8 @@ namespace Tyuiu.MilyutinND.Sprint5.Task6.V5.Lib
             using (StreamReader reader = new StreamReader(path))
             {
                 string line;
-                while ((line = reader.ReadLine()) != null)
+                while ((line = reader.ReadLine())
+                    != null)
                 {
                     for (int i = 0; i < line.Length; i++)
                     {
